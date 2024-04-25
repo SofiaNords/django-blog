@@ -5,7 +5,7 @@ from .models import About
 
 @admin.register(About)
 class AboutAdmin(SummernoteModelAdmin):
-    summoernote_fields = ('content',)
+    summernote_fields = ('content',)
 
 # Register your models here.
 
